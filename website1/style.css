@@ -1,0 +1,131 @@
+body{
+	/*background-image: url("cool.jpg");*/
+    background-color: #BAF1DC;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container {
+	/*background-color: white;*/
+	height: 100%;
+	width: 1083px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: transparent;
+	color: #8542F1;
+	text-align: center;
+	padding: 10px;
+}
+/* This section is for the drop down navigation */
+ #nav
+ {
+
+ 	width:1100px ;
+ 	float: left;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8542F1;
+    background-size: cover;
+
+}
+
+ li {
+    float: left;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #BAF1DC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #BAF1DC;
+    color:#8542F1;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BAF1DC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #8542F1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #BAF1DC}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+}
+
+#main {
+ 	width: 600px;
+ 	float: left;
+ 	text-align: left;
+ 	margin-left: 301px;
+    margin-top: 32px;
+    color: #8542F1;
+
+ 	 }
+
+ 	 #pic {
+ 	 	align-content: center;
+ 	 	float:below;
+ 	 }
+
+ 	 #footer {
+ 	 	position: absolute;
+ 	 	left: 0;
+ 	 	right: 0;
+ 	 	bottom: 0;
+ 	 	padding: 0;
+ 	 	position: fixed;
+ 	 	clear: both;
+ 	 }
+
+#aboutmain h1 {
+	width: 300px;
+
+
+
+}
+
+#contactmain {
+	width: 500px;
+	height: 500px;
+
+}
+h2.contactmain{
+	margin-top: 100px;
+    text-align: right;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+.cf {
+	clear: both;
+}
